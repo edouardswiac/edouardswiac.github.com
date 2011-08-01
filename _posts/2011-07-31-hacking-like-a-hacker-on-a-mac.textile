@@ -1,0 +1,55 @@
+---
+layout: posts
+title: Hacking like a hacker on a Mac using iTerm2, tmux, emacs, irssi (and more).
+published: true
+---
+
+h1. {{ page.title}}
+
+Those are the softwares I use everyday to try to suck less during my hacking sessions. I found that staying inside a terminal and keeping both hand on the keyboard using my ten fingers increased my productivity.
+
+h2. iTerm2
+
+You probably know or use "iTerm":http://iterm.sourceforge.net/, but did you know "iTerm2":http://iterm.sourceforge.net/ ? It's an awesome terminal replacement for Terminal.app, and ships with pane splitting, themes, powerful keybinding, window hotkeying (goodbye "Visor":http://visor.binaryage.com/!) ... A quick glance at its "features":http://www.iterm2.com/#/section/features/ should definitely convince you.
+
+!/images/split_panes.png!
+
+h2. Emacs 
+
+Pretty easy to install using MacPorts or homebrew. Vim is good too. Using one or the other is mostly a matter of taste. By using the default keybindings, Vim users will find themselves hitting frequently the Esc key, whereas Emacs users have to befriend with Ctrl and Alt keys.
+
+Emacs can be used either from inside the terminal or in GUI mode. We are talking about running Emacs inside iTerm2 here ! Run "emacs -nw" to shut down that GUI.
+
+!/images/emacs.png!
+
+
+h2. tmux
+
+GNU screen on vitamins. Long story short, tmux is to screen what iTerm2 it to Terminal.app. More configurable, overall improvements ... The folks at Hawkhost wrote "a two-part tutorial":http://blog.hawkhost.com/2010/06/28/tmux-the-terminal-multiplexer/ on the why's and the how's of tmux. 
+
+
+h2. irssi
+
+IRC in your -terminal- iTerm2. More on this tutorial by "Quadpoint.org":http://quadpoint.org/articles/irssi. 
+
+!/images/irssi.png!
+
+h3. Bonus
+
+You can also use *Solarized*, a theme designed for terminal and GUI usage, declined for almost every existing editor/IDE and *Oh my zsh*, a community-driven framework to manage your zsh configuration.
+
+h3. Solarized
+
+bq. Solarized is a sixteen color palette (eight monotones, eight accent colors) designed for use with terminal and gui applications. It has several unique properties. I designed this colorscheme with both precise CIELAB lightness relationships and a refined set of hues based on fixed color wheel relationships. It has been tested extensively in real world use on color calibrated displays (as well as uncalibrated/intentionally miscalibrated displays) and in a variety of lighting conditions. 
+
+Download it for your favorite editor/IDE (vim, emacs, textmate) on the website of its creator, "Ethan Schoonover":http://ethanschoonover.com/solarized
+
+!/images/solarized.png!
+
+h3. Oh my zsh
+
+bq. A community-driven framework for managing your zsh configuration. Includes 40+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, macports, etc), over 80 terminal themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
+
+Fork it from Robby Russel's "github repository":https://github.com/robbyrussell/oh-my-zsh. "Steve Losh":http://stevelosh.com/blog/2010/02/my-extravagant-zsh-prompt/ details his configuration and   "Intridea":http://intridea.com/2011/5/18/its-not-enough-to-bash-in-heads-youve-got-to-bash-in-minds-with-zsh has a pretty good explanation of the setup and some tips for a homebrewed configuration.
+
+!/images/ohmyzsh.png!

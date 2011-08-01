@@ -1,0 +1,7 @@
+---
+layout: posts
+title: FP goodness
+published: false
+---
+
+h1. {{ page.title }}
